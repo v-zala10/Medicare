@@ -1,3 +1,4 @@
+/* Navbar start */
 .container-fluid {
     padding: 0px 30px;
     width: 70%;
@@ -26,7 +27,6 @@
     height: 100px;
 }
 
-/* LINKS SECTION */
 .container-fluid .links {
     border: 2px solid #00AC4A;
     border-radius: 50px;
@@ -35,14 +35,12 @@
     align-items: center;
 }
 
-/* BUTTON SECTION */
 .container-fluid .btn {
     margin-right: 30px;
     display: flex;
     align-items: center;
 }
 
-/* Doctor Admin Button */
 .container-fluid .btn .btn1 {
     background-image: linear-gradient(to right, #08cc5d, #079243);
     padding: 10px 20px;
@@ -55,7 +53,6 @@
     gap: 8px;
 }
 
-/* Login Button */
 .container-fluid .btn button {
     background-color: transparent;
     padding: 10px 20px;
@@ -66,3 +63,62 @@
     align-items: center;
     gap: 8px;
 }
+
+/* Navbar end */
+
+/* Home start */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 130px;
+    margin-left: 130px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+.mainheading {
+    display: flex;
+    align-items: center;
+
+    .dr {
+         background-image: linear-gradient(to right, #08cc5d, #079243);
+         font-size: 25px;
+         color: white;
+         border-radius: 50%;
+         padding: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-right: 10px;
+    }
+
+
+    h1 {
+        font-size: 52px;
+
+
+        span {
+            color: #00AC4A;
+        }
+    }
+
+
+}
+.heading1{
+        margin-left: 50px;
+        font-size: 26px;
+
+        p{
+            margin-bottom: 0;
+            font-weight: 100;
+        }
+
+        h6{
+            font-size: 26px;
+            margin-top: 0px;
+            color: #00AC4A;
+            margin-bottom: 20px;
+        }
+    }
